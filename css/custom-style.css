@@ -1,0 +1,140 @@
+/*Owner : Mayank Pamecha*/
+
+/*Custom fonts starts here*/
+
+@font-face {
+    font-family: 'latoregular';
+    src: url('../fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('../fonts/lato-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nickainleynormal';
+    src: url('../fonts/nickainley-normal-webfont.woff2') format('woff2'),
+         url('../fonts/nickainley-normal-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/*Custom fonts ends here*/
+
+/*General CSS starts here*/
+body{
+	background: #FEFCF0;
+	width: 100%;
+}
+.hidden{
+  display: none;
+}
+.makie-main-card-container .makie-card-base{
+	display: table;
+    margin: 0 auto;
+    width: 380px;
+    height: 625px;
+    background-color: #FEFCF0;
+    position: relative;
+}
+.makie-main-card-container .makie-card-base img.thanks-message{
+	position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 63%;
+}
+.makie-main-card-container .makie-card-base img.bottom-image{
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.makie-main-card-container .makie-card-base .makie-page-intro{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	margin-top: 3em; 
+}
+.makie-main-card-container .makie-card-base .full-height{
+	height: 100%;
+}
+.makie-main-card-container .makie-card-base .save-date{
+	width: 100%;
+}
+.makie-main-card-container .makie-card-base .makie-page-intro img{
+	width: 195px;
+	margin: 0 auto;
+}
+.makie-main-card-container .makie-card-base .save-date img {
+    width: 250px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.makie-main-card-container .makie-card-base .save-date img.leaves {
+    width: 320px !important;
+}
+.makie-main-card-container .makie-card-base .makie-page-intro img.couple{
+	width: 285px;
+	margin: 0 auto;
+}
+.makie-main-card-container .makie-card-base .makie-page-intro span{
+	font-family: 'nickainleynormal';
+    color: #4C5051;
+    font-size: 38px;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+}
+.makie-main-card-container .makie-card-base .makie-page-intro .makie-animated-text{
+	font-family: 'nickainleynormal';
+    color: #4C5051;
+    font-size: 34px;
+    margin: 0 auto;
+    display: table;
+    margin: 1em;
+}
+/*General CSS ends here*/
+
+/*Couple page CSS starts here*/
+.makie-main-card-container .makie-card-base .makie-corner-designs{
+	height: 100%;
+	position: relative;
+}
+.makie-main-card-container .makie-card-base .makie-corner-designs img.top-right-corner {
+    position: absolute;
+    top: 0;
+    width: 190px;
+    right: 0;
+    margin: 5px;
+}
+.makie-main-card-container .makie-card-base .makie-corner-designs img.bottom-left-corner {
+    position: absolute;
+    bottom: 0;
+    width: 190px;
+    left: 0;
+    margin: 5px;
+}
+/*Couple page CSS ends here*/
+
+/*footer*/
+.makie-page-footer-link{
+    position: absolute;
+    bottom: 3em;
+    right: 2em;
+}
+.makie-page-footer-link img{
+    height: 40px;
+    width: auto;
+}
+.makie-main-card-container .makie-card-base .makie-page-intro img.top-image{
+	width: 215px;
+}
+.makie-main-card-container .makie-card-base .makie-page-intro img.middle-image{
+	width: 135px;
+    margin: 7em auto 2em;
+}
+.makie-main-card-container .makie-card-base .makie-page-intro img.bottom-image{
+	width: 165px;
+}
