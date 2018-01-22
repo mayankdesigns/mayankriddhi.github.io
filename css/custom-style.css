@@ -29,10 +29,9 @@ body{
 .makie-main-card-container .makie-card-base{
 	display: table;
     margin: 0 auto;
-    width: 380px;
-    height: 625px;
+    width: 100%;
+    height: auto;
     background-color: #FEFCF0;
-    position: relative;
 }
 .makie-main-card-container .makie-card-base img.thanks-message{
 	position: absolute;
@@ -41,21 +40,12 @@ body{
     transform: translate(-50%,0);
     width: 63%;
 }
-.makie-main-card-container .makie-card-base img.bottom-image{
-	position: absolute;
-    bottom: 0;
-    width: 100%;
-}
 .makie-main-card-container .makie-card-base .makie-page-intro{
 	position: absolute;
 	top: 50%;
 	left:50%;
 	transform: translate(-50%,-50%);
 	width: 100%;
-	margin-top: 3em; 
-}
-.makie-main-card-container .makie-card-base .full-height{
-	height: 100%;
 }
 .makie-main-card-container .makie-card-base .save-date{
 	width: 100%;
@@ -65,7 +55,7 @@ body{
 	margin: 0 auto;
 }
 .makie-main-card-container .makie-card-base .save-date img {
-    width: 250px;
+    width: 230px;
     margin: 0 auto;
     position: absolute;
     top: 50%;
@@ -73,7 +63,7 @@ body{
     transform: translate(-50%,-50%);
 }
 .makie-main-card-container .makie-card-base .save-date img.leaves {
-    width: 320px !important;
+    width: 290px !important;
 }
 .makie-main-card-container .makie-card-base .makie-page-intro img.couple{
 	width: 285px;
@@ -93,15 +83,11 @@ body{
     font-size: 34px;
     margin: 0 auto;
     display: table;
-    margin: 1em;
 }
 /*General CSS ends here*/
 
 /*Couple page CSS starts here*/
-.makie-main-card-container .makie-card-base .makie-corner-designs{
-	height: 100%;
-	position: relative;
-}
+
 .makie-main-card-container .makie-card-base .makie-corner-designs img.top-right-corner {
     position: absolute;
     top: 0;
@@ -137,4 +123,53 @@ body{
 }
 .makie-main-card-container .makie-card-base .makie-page-intro img.bottom-image{
 	width: 165px;
+}
+
+
+
+
+/*Media Query For Mobile*/
+@media only screen and (max-width: 768px) {
+	.makie-main-card-container .makie-card-base .makie-page-intro img {
+    	width: 142px;
+	}
+	.makie-main-card-container .makie-card-base .makie-page-intro span {
+	    font-size: 29px;
+	}
+	.makie-main-card-container .makie-card-base .makie-corner-designs img.top-right-corner {
+	    width: 130px;
+	}
+	.makie-main-card-container .makie-card-base .makie-corner-designs img.bottom-left-corner {
+	    width: 130px;
+	}
+	.makie-main-card-container .makie-card-base .makie-page-intro img.couple {
+	    width: 190px;
+	}
+	.makie-main-card-container .makie-card-base .makie-page-intro .makie-animated-text {
+	    font-size: 24px;
+	}
+	.makie-main-card-container .makie-card-base .makie-page-intro img.middle-image {
+	    width: 120px;
+	    margin: 3em auto 1em;
+	}
+	.makie-main-card-container .makie-card-base .makie-page-intro img.top-image{
+		width: 190px;
+	}
+	.makie-main-card-container .makie-card-base .makie-page-intro {
+	    top: 50%;
+	}
+	.makie-main-card-container .makie-card-base .date-page-align {
+	    top: 40%;
+	}
+	.makie-main-card-container .makie-card-base .makie-page-intro img.bottom-image {
+	    width: 135px;
+	}
+	.makie-main-card-container .makie-card-base img.thanks-message {
+    	width: 170px;
+	}
+	.makie-main-card-container .makie-card-base img.thanks-bottom-image {
+    	position: absolute;
+    	bottom: 0;
+    	width: 100%;
+	}
 }
